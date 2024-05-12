@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import { Container } from "@mui/material";
+import Player from "../components/Player";
 
 const MainLayout: React.FC<{ children: React.ReactNode }>  = ({ children }) => {
   return (
@@ -9,6 +10,7 @@ const MainLayout: React.FC<{ children: React.ReactNode }>  = ({ children }) => {
       <Container style={{margin: '90px auto'}}>
         { children }
       </Container>
+      <Player/>
     </>
   );
 };
