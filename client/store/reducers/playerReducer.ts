@@ -5,7 +5,7 @@ const initialState: PlayerState = {
     duration: 0,
     pause: true,
     active: null,
-    volume: 100
+    volume: 50
 };
 
 export const playerReducer = (state = initialState , action: PlayerAction ): PlayerState => {
